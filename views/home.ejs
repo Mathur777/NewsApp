@@ -1,0 +1,30 @@
+<%- include("partials/header"); -%>
+
+
+<h1 class="font-weight-bold text-center">Top News<span class="badge badge-warning">by The News Express</span></h1>
+<br>
+
+<div class="wrapper">  
+    <div class="news">      
+        <%  articles.forEach(function(element,index){ %>
+            <div class="news_card">      
+                <img class="news-img" src="<%- element.urlToImage %>" alt="<%-element.title%>">
+                
+                <<h2><%-element.title + " ..."%>
+               
+                    <a href="<%-element.url%>" target="_blank"> Read News</a>
+          </div>
+         
+        <% }) %>
+    </div>
+</div>
+</div>
+<br>
+
+   
+
+        
+    
+
+
+<%- include("partials/footer"); -%>

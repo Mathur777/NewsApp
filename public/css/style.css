@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f6f6f6;
+}
+
+.navbar-brand {
+    font-size: 30px;
+    font-weight: bolder;
+    font-style: italic;
+ 
+}
+.nav-link{
+    font-size: 17px;
+    margin-left:25px;
+    color:white;
+    
+}
+.nav-link:hover{
+    color:red;
+}
+
+.navbar-nav {
+    margin-right:110px;
+}
+
+.heading{
+    text-decoration: underline;
+    font-style: italic;
+}
+
+img { max-width: 100%; 
+        
+}
+
+
+
+h2 { font-size: 20px; 
+      color:black;
+      font-weight: bold;  
+}
+
+
+.wrapper { padding: 0 1rem; }
+
+.news {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+    grid-gap: 2rem;
+    
+}
+a:link{
+  
+    text-decoration: none;
+}
+a:hover{
+    color:blue;
+}
+p{ 
+    color:#707070;
+}
+    .news__card {
+        text-decoration: none;
+        color: rgb(8, 8, 8);
+        background-color: #fff;
+        padding: 20px;
+    }
+
+        .news_card:hover {
+            box-shadow: 0 3px 3px rgba(0,0,0,0.16), 0 3px 3px rgba(0,0,0,0.23);
+        }
+        
+    
+
+    /*footer*/
+#social-git:hover{
+    color:black;
+}
+#social-em:hover{
+    color:#EA4335;
+}
